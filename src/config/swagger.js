@@ -9,10 +9,10 @@ const options = {
       description: "API for analyzing GitHub profiles"
     },
     servers: [
-      {
-        url: "http://localhost:5000"
-      }
-    ]
+  {
+    url: "https://github-profile-analyzer-api-3lko.onrender.com"
+  }
+]
   },
   apis: ["./src/routes/*.js"]
 };
